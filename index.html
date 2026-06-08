@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Bovana Events — Where Luxury Meets Experience</title>
+<meta name="description" content="India's most exclusive private events — mansion parties, casino nights, yacht experiences and rooftop sundowners curated for the discerning few." />
+<meta property="og:title" content="Bovana Events — Where Luxury Meets Experience" />
+<meta property="og:description" content="Elite private gatherings, mafia nights, casino royale, luxury pool & yacht parties across India." />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Bovana Events","description":"Curators of elite social experiences and luxury private gatherings across India.","areaServed":"IN","url":"/"}
+</script>
+</head>
+<body id="top">
+
+<!-- HEADER -->
+<header id="site-header" class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">B</span>
+      <span class="brand-text">BOVANA EVENTS</span>
+    </a>
+    <nav class="nav-desktop">
+      <a href="#experiences">Experiences</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn-gold nav-cta">Book Now</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div id="mobile-menu" class="mobile-menu">
+    <nav>
+      <a href="#experiences">Experiences</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn-gold">Book Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="assets/hero-rooftop.jpg" alt="Luxury rooftop event" class="hero-img" />
+  <div class="hero-overlay"></div>
+  <div class="particles" id="hero-particles"></div>
+  <div class="hero-content">
+    <div class="fade-up">
+      <span class="eyebrow left gold">By Invitation · India</span>
+      <h1 class="hero-title">
+        Where <em class="text-gold-gradient italic">Luxury</em><br />
+        Meets Experience.
+      </h1>
+      <p class="hero-sub">
+        Bovana Events curates India's most exclusive private gatherings — mansion soirées,
+        casino nights, yacht voyages and the rooms you've only heard about.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-gold">Book Your Experience →</a>
+        <a href="#experiences" class="btn-ghost">Explore Themes</a>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track" id="marquee-track"></div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <span class="eyebrow left">The House of Bovana</span>
+      <h2 class="h2">Quietly assembled.<br/><em class="italic text-gold-gradient">Loudly remembered.</em></h2>
+      <p class="lead">
+        We are India's curators of the elite social hour. From whispered mansion dinners to
+        sun-drunk yacht afternoons, every Bovana night is choreographed end-to-end for a small
+        circle of urban professionals who already have everything — except a great story to tell.
+      </p>
+      <div class="about-stats">
+        <div><div class="stat-n text-gold-gradient">240+</div><div class="stat-l">Private Nights</div></div>
+        <div><div class="stat-n text-gold-gradient">12</div><div class="stat-l">Cities</div></div>
+        <div><div class="stat-n text-gold-gradient">6.5k</div><div class="stat-l">Vetted Guests</div></div>
+      </div>
+    </div>
+    <div class="reveal about-images">
+      <div class="image-zoom about-main"><img src="assets/exp-villa.jpg" alt="Private villa gathering" loading="lazy" /></div>
+      <div class="image-zoom about-small"><img src="assets/gallery-3.jpg" alt="" loading="lazy" /></div>
+      <div class="about-badge"><span>Est.<br/><strong>2017</strong></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCES -->
+<section id="experiences" class="section experiences">
+  <div class="container">
+    <div class="reveal section-heading">
+      <span class="eyebrow">Curated Experiences</span>
+      <h2 class="h2">Seven nights.<br/><em class="italic text-gold-gradient">One unforgettable circle.</em></h2>
+    </div>
+    <div class="exp-grid" id="exp-grid"></div>
+  </div>
+</section>
+
+<!-- UPCOMING PARTIES -->
+<section id="upcoming" class="section">
+  <div class="container">
+    <div class="reveal section-heading">
+      <span class="eyebrow">On The Calendar</span>
+      <h2 class="h2">Upcoming <em class="italic text-gold-gradient">nights.</em></h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto">A glimpse of what's next on the Bovana calendar. Reserve early — every night closes by invitation.</p>
+    </div>
+    <div class="upcoming-grid" id="upcoming-grid"></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section">
+  <div class="container why-grid">
+    <div class="reveal why-intro">
+      <span class="eyebrow left">The Bovana Standard</span>
+      <h2 class="h2">Six reasons our guests<br/><em class="italic text-gold-gradient">never go anywhere else.</em></h2>
+      <p class="lead">Every Bovana night is the product of a hundred quiet decisions — venue, faces, fabric, florals, light, ice. We obsess over them so you don't have to.</p>
+    </div>
+    <div class="reasons-grid" id="reasons-grid"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section gallery">
+  <div class="container">
+    <div class="reveal gallery-head">
+      <div>
+        <span class="eyebrow left">Moments</span>
+        <h2 class="h2 ivory">A quiet archive of<br/><em class="italic text-gold-gradient">very loud nights.</em></h2>
+      </div>
+      <p class="muted-ivory">A fraction of what we capture — the rest stays in the room.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="image-zoom tile tile-big"><img src="assets/gallery-2.jpg" alt="" loading="lazy"/></div>
+      <div class="image-zoom tile"><img src="assets/gallery-3.jpg" alt="" loading="lazy"/></div>
+      <div class="image-zoom tile"><img src="assets/gallery-1.jpg" alt="" loading="lazy"/></div>
+      <div class="image-zoom tile tile-wide"><img src="assets/gallery-5.jpg" alt="" loading="lazy"/></div>
+      <div class="image-zoom tile"><img src="assets/gallery-6.jpg" alt="" loading="lazy"/></div>
+      <div class="image-zoom tile"><img src="assets/gallery-4.jpg" alt="" loading="lazy"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREVIOUS PARTIES -->
+<section id="previous" class="section previous">
+  <div class="container">
+    <div class="reveal gallery-head" style="color:var(--ink)">
+      <div>
+        <span class="eyebrow left">In The Archive</span>
+        <h2 class="h2">Nights we've already <em class="italic text-gold-gradient">lived.</em></h2>
+      </div>
+      <p style="max-width:22rem;color:var(--muted);font-size:.875rem">A short ledger of recent gatherings. The full archive stays with our circle.</p>
+    </div>
+    <div class="previous-grid" id="previous-grid"></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="container stats-grid" id="stats-grid"></div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="reveal section-heading">
+      <span class="eyebrow">Whispers</span>
+      <h2 class="h2">What the circle <em class="italic text-gold-gradient">says.</em></h2>
+    </div>
+    <div class="testi-grid" id="testi-grid"></div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="contact" class="booking">
+  <div class="particles" id="book-particles"></div>
+  <div class="container booking-grid">
+    <div class="reveal booking-copy">
+      <span class="eyebrow left gold">Request an Invitation</span>
+      <h2 class="h2 ivory">Tell us about the night<br/><em class="italic text-gold-gradient">you've been imagining.</em></h2>
+      <p class="muted-ivory" style="margin-top:1.5rem;max-width:28rem">
+        Share a few details. Our concierge will respond within 24 hours with a tailored
+        proposal — venues, themes, dates and discreet logistics, end-to-end.
+      </p>
+      <ul class="check-list">
+        <li><span class="check">✓</span>Personalised in 24 hours</li>
+        <li><span class="check">✓</span>End-to-end curation</li>
+        <li><span class="check">✓</span>Strict guest confidentiality</li>
+      </ul>
+    </div>
+    <form class="reveal glass-dark booking-form" id="booking-form">
+      <div class="field">
+        <label>Full Name</label>
+        <input required name="name" placeholder="Your name" />
+      </div>
+      <div class="field">
+        <label>Phone</label>
+        <input required type="tel" name="phone" placeholder="+91" />
+      </div>
+      <div class="field">
+        <label>Preferred Theme</label>
+        <select required name="theme" id="theme-select">
+          <option>Select a theme</option>
+        </select>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Guest Count</label><input required type="number" name="guests" placeholder="e.g. 40" /></div>
+        <div class="field"><label>Event Date</label><input required type="date" name="date" /></div>
+      </div>
+      <button type="submit" class="btn-gold btn-block">Request Invitation →</button>
+      <p class="fineprint">By submitting you agree to our discretion policy.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="gold-divider"></div>
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">
+        <span class="brand-mark">B</span>
+        <span class="brand-text ivory">BOVANA <span class="text-gold-gradient">EVENTS</span></span>
+      </div>
+      <p class="footer-blurb">Curators of India's most exclusive private gatherings — where discreet luxury meets the night.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Youtube">YT</a>
+      </div>
+    </div>
+    <div>
+      <h4 class="footer-h">Navigate</h4>
+      <ul class="footer-list">
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-h">Contact</h4>
+      <ul class="footer-list">
+        <li>📞 +91 98765 43210</li>
+        <li>✉ concierge@bovanaevents.in</li>
+        <li>📍 Mumbai · Delhi · Goa · Bengaluru</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="footer-h">@bovanaevents</h4>
+      <div class="insta-grid">
+        <a href="#"><img src="assets/gallery-1.jpg" alt=""/></a>
+        <a href="#"><img src="assets/gallery-2.jpg" alt=""/></a>
+        <a href="#"><img src="assets/gallery-3.jpg" alt=""/></a>
+        <a href="#"><img src="assets/gallery-4.jpg" alt=""/></a>
+        <a href="#"><img src="assets/gallery-5.jpg" alt=""/></a>
+        <a href="#"><img src="assets/gallery-6.jpg" alt=""/></a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="gold-divider"></div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Bovana Events · By invitation</p>
+      <p>Crafted for the discerning few</p>
+    </div>
+  </div>
+</footer>
+
+<a href="#contact" class="floating-cta">✦ Reserve</a>
+
+<script src="script.js"></script>
+</body>
+</html>
